@@ -1,7 +1,8 @@
 from urllib.request import urlopen
 import pickle
 
-h = urlopen("http://www.pythonchallenge.com/pc/def/banner.p")
+h = urlopen("http://www.pythonchallenge.com/pc/return/bull.html")
+h.read()
 data = pickle.load(h)
 
 for line in data:
